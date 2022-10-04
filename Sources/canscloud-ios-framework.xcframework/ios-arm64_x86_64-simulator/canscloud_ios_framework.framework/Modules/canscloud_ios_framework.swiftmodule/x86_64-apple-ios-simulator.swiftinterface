@@ -5,3 +5,7 @@ import Foundation
 import Swift
 import _Concurrency
 @_exported import canscloud_ios_framework
+@_hasMissingDesignatedInitializers public class AllowAccess {
+  public func display()
+  @objc deinit
+}
