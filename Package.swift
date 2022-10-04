@@ -10,7 +10,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "canscloud_ios_framework",
+            name: "canscloud-ios-framework",
             targets: ["canscloud-ios-framework"]),
     ],
     targets: [
