@@ -5,24 +5,18 @@ import PackageDescription
 
 let package = Package(
     name: "canscloud-ios-sdk",
-    products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
-        .library(
-            name: "canscloud-ios-sdk",
-            targets: ["canscloud-ios-sdk"]),
+    platforms: [
+        .iOS(.v11)
     ],
-    dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
+    products: [
+        .library(
+            name: "canscloud_ios_framework",
+            targets: ["canscloud-ios-framework"]),
     ],
     targets: [
-        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-        // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .target(
-            name: "canscloud-ios-sdk",
-            dependencies: []),
-        .testTarget(
-            name: "canscloud-ios-sdkTests",
-            dependencies: ["canscloud-ios-sdk"]),
+        .binaryTarget(
+            name: "canscloud-ios-framework",
+            path: "./Sources/canscloud-ios-framework.xcframework"
+        )
     ]
 )
