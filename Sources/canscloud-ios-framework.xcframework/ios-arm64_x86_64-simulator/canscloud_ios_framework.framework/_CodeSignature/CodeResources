@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/canscloud_ios_framework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		vZdRVTpEUPDaxuN4H2iskPx8GSM=
+		zUhJkeMhzF3Ec8Obl3pgl0ot4tA=
 		</data>
 		<key>Modules/canscloud_ios_framework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RCVIxzMAOcyWtbOsoebkHRYHMmw=
+		75FoSRZpKZkHxj2A/tVktDxeFMo=
 		</data>
 		<key>Modules/canscloud_ios_framework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/canscloud_ios_framework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		noZpDRFvdDNFFhSQKxiEfUvXIvs=
+		reMg/MPn4QJRyZgCs1+8cL48Cak=
 		</data>
 		<key>Modules/canscloud_ios_framework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		L2+yBlICABKOXY2zM3aky/MybFM=
+		bIONtdoiRioGwery7Zb/f0e7XEQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			evWWnh7oYTA4RoVL0dymbmqCbrytaw0rWRQbDrX0e48=
+			lB87mq0jCc+mByPyKYJLbaMrN+gKNgo3BF2Hvk2d1xA=
 			</data>
 		</dict>
 		<key>Modules/canscloud_ios_framework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aRuic6Np9r1JanaZKapSN4GPliyMRlGtxf5kN5AkpkQ=
+			9reVlangWiX8POEw6CnxDDDGHvy0LnDx48+eKlmf5YE=
 			</data>
 		</dict>
 		<key>Modules/canscloud_ios_framework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QLdDcUL+sxrBnMPNCEvAnchLV5jsLcF+YDIcWLOUqzg=
+			gPqGSWEVlw/Ew5dyyZ+CJZGiTU++ftpHRJCysfJVZqc=
 			</data>
 		</dict>
 		<key>Modules/canscloud_ios_framework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			27oy8m5DumfOz5adl18mVXObmP38KspeDpiFiwxp9C8=
+			QmzQyaFCuGnAR+M6gljlIRXRFVULDqAv90cP/4Q02zE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
