@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		X7wBSr4o46nO2pJ8nv66+peRq2E=
+		dyO9uQsBD7but4YDoYlMLdc40l4=
 		</data>
 		<key>Modules/canscloud_ios_framework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/canscloud_ios_framework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		hW9WBUtxPyrVpLXVKcCA4mdw89U=
+		ToIe6KiC+A2a6w7ZQlpQW6XIlbg=
 		</data>
 		<key>Modules/canscloud_ios_framework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		EWXnI73ILZ9SC7uASBOlODef1pQ=
+		mOMCoHnA7f07SY4WaVbEErOWB0Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -60,14 +60,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dzy0Yo+Qkec9U1q8O9x+Qd3zf3UvqKdpuPzDHRRFAF0=
+			C6t559XAO9EK0kz9yux5ySUhqE/uW4O5PBqVhG7LJ3M=
 			</data>
 		</dict>
 		<key>Modules/canscloud_ios_framework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WyTA07lsX6n9W+5F9aQyLlVbXHCMVYdl5ImeKHbd7rk=
+			9pkWQO0WgbMDe5U6t11qaX9I8n6sFOFfvslKgTMFdj0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

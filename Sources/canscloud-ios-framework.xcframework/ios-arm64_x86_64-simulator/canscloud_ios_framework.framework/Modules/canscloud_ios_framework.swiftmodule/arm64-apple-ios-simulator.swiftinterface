@@ -27,8 +27,5 @@ public struct CdrList : Swift.Decodable {
   public init(from decoder: Swift.Decoder) throws
 }
 public struct CdrHistoryRequest {
-  public let domain: Swift.String
-  public let extensionSource: Swift.String
-  public let extensionDestination: Swift.String
-  public let page: Swift.Int
+  public init(domain: Swift.String, extensionSource: Swift.String, extensionDestination: Swift.String, page: Swift.Int)
 }
