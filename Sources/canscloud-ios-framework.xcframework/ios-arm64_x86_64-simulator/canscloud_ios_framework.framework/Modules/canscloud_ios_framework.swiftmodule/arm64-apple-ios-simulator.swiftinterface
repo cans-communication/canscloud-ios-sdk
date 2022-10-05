@@ -1,12 +1,21 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
-// swift-module-flags: -target arm64-apple-ios15.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name canscloud_ios_framework
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name canscloud_ios_framework
+import Alamofire
 import Foundation
 import Swift
 import _Concurrency
 @_exported import canscloud_ios_framework
-public class AllowAccess {
+public class CdrHistoryWorker {
   public init()
-  public func display()
+  public func fetch(request: canscloud_ios_framework.CdrHistoryRequest, completion: @escaping (canscloud_ios_framework.CdrHistoryApi?) -> Swift.Void)
   @objc deinit
+}
+public struct CdrHistoryApi : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct CdrList : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct CdrHistoryRequest {
 }
