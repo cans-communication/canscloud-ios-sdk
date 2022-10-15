@@ -53,6 +53,200 @@
             "printedName": "CdrHistoryApi",
             "children": [
               {
+                "kind": "Var",
+                "name": "cdrLists",
+                "printedName": "cdrLists",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[canscloud_ios_framework.CansConnect.CdrList]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CdrList",
+                        "printedName": "canscloud_ios_framework.CansConnect.CdrList",
+                        "usr": "s:23canscloud_ios_framework11CansConnectC7CdrListV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23canscloud_ios_framework11CansConnectC13CdrHistoryApiV8cdrListsSayAC0F4ListVGvp",
+                "mangledName": "$s23canscloud_ios_framework11CansConnectC13CdrHistoryApiV8cdrListsSayAC0F4ListVGvp",
+                "moduleName": "canscloud_ios_framework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[canscloud_ios_framework.CansConnect.CdrList]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CdrList",
+                            "printedName": "canscloud_ios_framework.CansConnect.CdrList",
+                            "usr": "s:23canscloud_ios_framework11CansConnectC7CdrListV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23canscloud_ios_framework11CansConnectC13CdrHistoryApiV8cdrListsSayAC0F4ListVGvg",
+                    "mangledName": "$s23canscloud_ios_framework11CansConnectC13CdrHistoryApiV8cdrListsSayAC0F4ListVGvg",
+                    "moduleName": "canscloud_ios_framework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[canscloud_ios_framework.CansConnect.CdrList]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CdrList",
+                            "printedName": "canscloud_ios_framework.CansConnect.CdrList",
+                            "usr": "s:23canscloud_ios_framework11CansConnectC7CdrListV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23canscloud_ios_framework11CansConnectC13CdrHistoryApiV8cdrListsSayAC0F4ListVGvs",
+                    "mangledName": "$s23canscloud_ios_framework11CansConnectC13CdrHistoryApiV8cdrListsSayAC0F4ListVGvs",
+                    "moduleName": "canscloud_ios_framework",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23canscloud_ios_framework11CansConnectC13CdrHistoryApiV8cdrListsSayAC0F4ListVGvM",
+                    "mangledName": "$s23canscloud_ios_framework11CansConnectC13CdrHistoryApiV8cdrListsSayAC0F4ListVGvM",
+                    "moduleName": "canscloud_ios_framework",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "totalPage",
+                "printedName": "totalPage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23canscloud_ios_framework11CansConnectC13CdrHistoryApiV9totalPageSivp",
+                "mangledName": "$s23canscloud_ios_framework11CansConnectC13CdrHistoryApiV9totalPageSivp",
+                "moduleName": "canscloud_ios_framework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23canscloud_ios_framework11CansConnectC13CdrHistoryApiV9totalPageSivg",
+                    "mangledName": "$s23canscloud_ios_framework11CansConnectC13CdrHistoryApiV9totalPageSivg",
+                    "moduleName": "canscloud_ios_framework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23canscloud_ios_framework11CansConnectC13CdrHistoryApiV9totalPageSivs",
+                    "mangledName": "$s23canscloud_ios_framework11CansConnectC13CdrHistoryApiV9totalPageSivs",
+                    "moduleName": "canscloud_ios_framework",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23canscloud_ios_framework11CansConnectC13CdrHistoryApiV9totalPageSivM",
+                    "mangledName": "$s23canscloud_ios_framework11CansConnectC13CdrHistoryApiV9totalPageSivM",
+                    "moduleName": "canscloud_ios_framework",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(from:)",
@@ -102,6 +296,314 @@
             "printedName": "CdrList",
             "children": [
               {
+                "kind": "Var",
+                "name": "answerTime",
+                "printedName": "answerTime",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23canscloud_ios_framework11CansConnectC7CdrListV10answerTimeSSvp",
+                "mangledName": "$s23canscloud_ios_framework11CansConnectC7CdrListV10answerTimeSSvp",
+                "moduleName": "canscloud_ios_framework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23canscloud_ios_framework11CansConnectC7CdrListV10answerTimeSSvg",
+                    "mangledName": "$s23canscloud_ios_framework11CansConnectC7CdrListV10answerTimeSSvg",
+                    "moduleName": "canscloud_ios_framework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "conversationTime",
+                "printedName": "conversationTime",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23canscloud_ios_framework11CansConnectC7CdrListV16conversationTimeSSvp",
+                "mangledName": "$s23canscloud_ios_framework11CansConnectC7CdrListV16conversationTimeSSvp",
+                "moduleName": "canscloud_ios_framework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23canscloud_ios_framework11CansConnectC7CdrListV16conversationTimeSSvg",
+                    "mangledName": "$s23canscloud_ios_framework11CansConnectC7CdrListV16conversationTimeSSvg",
+                    "moduleName": "canscloud_ios_framework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "date",
+                "printedName": "date",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23canscloud_ios_framework11CansConnectC7CdrListV4dateSSvp",
+                "mangledName": "$s23canscloud_ios_framework11CansConnectC7CdrListV4dateSSvp",
+                "moduleName": "canscloud_ios_framework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23canscloud_ios_framework11CansConnectC7CdrListV4dateSSvg",
+                    "mangledName": "$s23canscloud_ios_framework11CansConnectC7CdrListV4dateSSvg",
+                    "moduleName": "canscloud_ios_framework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "status",
+                "printedName": "status",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23canscloud_ios_framework11CansConnectC7CdrListV6statusSSvp",
+                "mangledName": "$s23canscloud_ios_framework11CansConnectC7CdrListV6statusSSvp",
+                "moduleName": "canscloud_ios_framework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23canscloud_ios_framework11CansConnectC7CdrListV6statusSSvg",
+                    "mangledName": "$s23canscloud_ios_framework11CansConnectC7CdrListV6statusSSvg",
+                    "moduleName": "canscloud_ios_framework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "cdrUuid",
+                "printedName": "cdrUuid",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23canscloud_ios_framework11CansConnectC7CdrListV7cdrUuidSSvp",
+                "mangledName": "$s23canscloud_ios_framework11CansConnectC7CdrListV7cdrUuidSSvp",
+                "moduleName": "canscloud_ios_framework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23canscloud_ios_framework11CansConnectC7CdrListV7cdrUuidSSvg",
+                    "mangledName": "$s23canscloud_ios_framework11CansConnectC7CdrListV7cdrUuidSSvg",
+                    "moduleName": "canscloud_ios_framework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "domainUuid",
+                "printedName": "domainUuid",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23canscloud_ios_framework11CansConnectC7CdrListV10domainUuidSSvp",
+                "mangledName": "$s23canscloud_ios_framework11CansConnectC7CdrListV10domainUuidSSvp",
+                "moduleName": "canscloud_ios_framework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23canscloud_ios_framework11CansConnectC7CdrListV10domainUuidSSvg",
+                    "mangledName": "$s23canscloud_ios_framework11CansConnectC7CdrListV10domainUuidSSvg",
+                    "moduleName": "canscloud_ios_framework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "isRecording",
+                "printedName": "isRecording",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23canscloud_ios_framework11CansConnectC7CdrListV11isRecordingSbvp",
+                "mangledName": "$s23canscloud_ios_framework11CansConnectC7CdrListV11isRecordingSbvp",
+                "moduleName": "canscloud_ios_framework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23canscloud_ios_framework11CansConnectC7CdrListV11isRecordingSbvg",
+                    "mangledName": "$s23canscloud_ios_framework11CansConnectC7CdrListV11isRecordingSbvg",
+                    "moduleName": "canscloud_ios_framework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(from:)",
@@ -149,6 +651,184 @@
             "kind": "TypeDecl",
             "name": "CdrHistoryRequest",
             "printedName": "CdrHistoryRequest",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "domain",
+                "printedName": "domain",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV6domainSSvp",
+                "mangledName": "$s23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV6domainSSvp",
+                "moduleName": "canscloud_ios_framework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV6domainSSvg",
+                    "mangledName": "$s23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV6domainSSvg",
+                    "moduleName": "canscloud_ios_framework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "extensionSource",
+                "printedName": "extensionSource",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV15extensionSourceSSvp",
+                "mangledName": "$s23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV15extensionSourceSSvp",
+                "moduleName": "canscloud_ios_framework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV15extensionSourceSSvg",
+                    "mangledName": "$s23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV15extensionSourceSSvg",
+                    "moduleName": "canscloud_ios_framework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "extensionDestination",
+                "printedName": "extensionDestination",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV20extensionDestinationSSvp",
+                "mangledName": "$s23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV20extensionDestinationSSvp",
+                "moduleName": "canscloud_ios_framework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV20extensionDestinationSSvg",
+                    "mangledName": "$s23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV20extensionDestinationSSvg",
+                    "moduleName": "canscloud_ios_framework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "page",
+                "printedName": "page",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV4pageSivp",
+                "mangledName": "$s23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV4pageSivp",
+                "moduleName": "canscloud_ios_framework",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV4pageSivg",
+                    "mangledName": "$s23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV4pageSivg",
+                    "moduleName": "canscloud_ios_framework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
             "declKind": "Struct",
             "usr": "s:23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV",
             "mangledName": "$s23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV",
@@ -225,14 +905,14 @@
     {
       "filePath": "\/Users\/siraphop\/Documents\/CansProjects\/cans-communication\/canscloud-ios-framework\/canscloud-ios-framework\/CansConnect.swift",
       "kind": "BooleanLiteral",
-      "offset": 865,
+      "offset": 956,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/siraphop\/Documents\/CansProjects\/cans-communication\/canscloud-ios-framework\/canscloud-ios-framework\/CansConnect.swift",
       "kind": "StringLiteral",
-      "offset": 898,
+      "offset": 989,
       "length": 14,
       "value": "\"test.cans.cc\""
     }
