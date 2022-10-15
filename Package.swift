@@ -10,13 +10,13 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "canscloud-ios-framework",
-            targets: ["canscloud-ios-framework"]),
+            name: "canscloud_ios_framework",
+            targets: ["canscloud_ios_framework"]),
     ],
     targets: [
         .binaryTarget(
-            name: "canscloud-ios-framework",
-            path: "./Sources/canscloud-ios-framework.xcframework"
+            name: "canscloud_ios_framework",
+            path: "./Sources/canscloud_ios_framework.xcframework"
         )
     ]
 )
