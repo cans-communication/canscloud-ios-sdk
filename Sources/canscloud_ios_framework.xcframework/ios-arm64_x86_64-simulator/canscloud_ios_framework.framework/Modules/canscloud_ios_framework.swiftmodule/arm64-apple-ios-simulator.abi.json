@@ -827,6 +827,51 @@
                     "accessorKind": "get"
                   }
                 ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(domain:extensionSource:extensionDestination:page:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CdrHistoryRequest",
+                    "printedName": "canscloud_ios_framework.CansConnect.CdrHistoryRequest",
+                    "usr": "s:23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV6domain15extensionSource0J11Destination4pageAESS_S2SSitcfc",
+                "mangledName": "$s23canscloud_ios_framework11CansConnectC17CdrHistoryRequestV6domain15extensionSource0J11Destination4pageAESS_S2SSitcfc",
+                "moduleName": "canscloud_ios_framework",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
               }
             ],
             "declKind": "Struct",
@@ -905,14 +950,14 @@
     {
       "filePath": "\/Users\/siraphop\/Documents\/CansProjects\/cans-communication\/canscloud-ios-framework\/canscloud-ios-framework\/CansConnect.swift",
       "kind": "BooleanLiteral",
-      "offset": 956,
+      "offset": 1253,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/siraphop\/Documents\/CansProjects\/cans-communication\/canscloud-ios-framework\/canscloud-ios-framework\/CansConnect.swift",
       "kind": "StringLiteral",
-      "offset": 989,
+      "offset": 1286,
       "length": 14,
       "value": "\"test.cans.cc\""
     }

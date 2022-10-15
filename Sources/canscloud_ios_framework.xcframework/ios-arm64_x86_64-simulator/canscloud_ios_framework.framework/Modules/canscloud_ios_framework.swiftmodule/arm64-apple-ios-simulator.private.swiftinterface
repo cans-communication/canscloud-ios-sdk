@@ -30,6 +30,7 @@ public class CansConnect {
     public let extensionSource: Swift.String
     public let extensionDestination: Swift.String
     public let page: Swift.Int
+    public init(domain: Swift.String, extensionSource: Swift.String, extensionDestination: Swift.String, page: Swift.Int)
   }
   public func fetchCdrHistory(request: canscloud_ios_framework.CansConnect.CdrHistoryRequest, completion: @escaping (canscloud_ios_framework.CansConnect.CdrHistoryApi?) -> Swift.Void)
   @objc deinit
