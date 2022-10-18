@@ -2,14 +2,13 @@
 // swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name canscloud_ios_framework
 // swift-module-flags-ignorable: -enable-bare-slash-regex
-import Alamofire
 import Foundation
 import Swift
 import _Concurrency
 import _StringProcessing
 @_exported import canscloud_ios_framework
-public class CansConnect {
-  public init()
+@objc @_inheritsConvenienceInitializers public class CansConnect : ObjectiveC.NSObject, Foundation.URLSessionDelegate {
+  @objc override dynamic public init()
   public struct CdrHistoryApi : Swift.Decodable {
     public var cdrLists: [canscloud_ios_framework.CansConnect.CdrList]
     public var totalPage: Swift.Int
@@ -33,5 +32,6 @@ public class CansConnect {
     public init(domain: Swift.String, extensionSource: Swift.String, extensionDestination: Swift.String, page: Swift.Int)
   }
   public func fetchCdrHistory(request: canscloud_ios_framework.CansConnect.CdrHistoryRequest, completion: @escaping (canscloud_ios_framework.CansConnect.CdrHistoryApi?) -> Swift.Void)
+  @objc public func urlSession(_ session: Foundation.URLSession, didReceive challenge: Foundation.URLAuthenticationChallenge, completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void)
   @objc deinit
 }

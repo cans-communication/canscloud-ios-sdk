@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/canscloud_ios_framework-Swift.h</key>
 		<data>
-		sYtDsekf/iMVuEB5WwGs9W+Nkac=
+		GXnTe7VvdnAyaQU5dPY5J32H4V0=
 		</data>
 		<key>Headers/canscloud_ios_framework.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/canscloud_ios_framework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		c6DcPMo5r9QvqP2cAFA1X0q6m3o=
+		mmjupsvvKxzdqNgQrV1kG/iWmuo=
 		</data>
 		<key>Modules/canscloud_ios_framework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		qFAf1AwV+SlmAjhGYPqfHi7sxgA=
+		wHvdykiumCFTccuIoz90CLJsDbE=
 		</data>
 		<key>Modules/canscloud_ios_framework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/canscloud_ios_framework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		qFAf1AwV+SlmAjhGYPqfHi7sxgA=
+		wHvdykiumCFTccuIoz90CLJsDbE=
 		</data>
 		<key>Modules/canscloud_ios_framework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		mFnOP1PyWZzrw49YKMY8Y45SXFI=
+		m5RzWe3yNn4rZedBNyfZk6P/T7Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2F4vDEbeFFXojJ9ZxzcagjL3ILd7HcizPDZBEZbjzWU=
+			0RNqVW0p2K6tDws7S/1E2iE2QUFrOg211y4XOQBvLtI=
 			</data>
 		</dict>
 		<key>Headers/canscloud_ios_framework.h</key>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8qve6JSXixtXdYYfp3JUQj+YSE/KhjMgTiIOdeUqsDM=
+			78aTqvk0ZnZ8OO6lBsDZ3zC++Zvlw8Pf2pVWPXlxRtE=
 			</data>
 		</dict>
 		<key>Modules/canscloud_ios_framework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V/myqQwuc8WwN2mPJeCJH77KTUagT5EJdXtxuyS0F2k=
+			bGSJQ0B54VDBWNCSbGjv9BinPf2ls4o87gh9UK9/MM4=
 			</data>
 		</dict>
 		<key>Modules/canscloud_ios_framework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V/myqQwuc8WwN2mPJeCJH77KTUagT5EJdXtxuyS0F2k=
+			bGSJQ0B54VDBWNCSbGjv9BinPf2ls4o87gh9UK9/MM4=
 			</data>
 		</dict>
 		<key>Modules/canscloud_ios_framework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			khNcDGsCwH6ehf+9NEQJls/e7B5YST8dx4APOJ8X4ck=
+			v61wDg71luWcGlLcvgCYeqLVPeWRj+zKzvOzHnmAJyI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

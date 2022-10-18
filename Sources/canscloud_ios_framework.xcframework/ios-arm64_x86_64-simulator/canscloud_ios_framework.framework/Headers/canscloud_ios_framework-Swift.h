@@ -230,6 +230,8 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
+@import ObjectiveC;
 #endif
 
 #endif
@@ -250,6 +252,16 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+@class NSURLSession;
+@class NSURLAuthenticationChallenge;
+@class NSURLCredential;
+
+SWIFT_CLASS("_TtC23canscloud_ios_framework11CansConnect")
+@interface CansConnect : NSObject <NSURLSessionDelegate>
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)URLSession:(NSURLSession * _Nonnull)session didReceiveChallenge:(NSURLAuthenticationChallenge * _Nonnull)challenge completionHandler:(void (^ _Nonnull)(NSURLSessionAuthChallengeDisposition, NSURLCredential * _Nullable))completionHandler;
+@end
+
 #endif
 #if defined(__cplusplus)
 #endif
@@ -490,6 +502,8 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
+@import ObjectiveC;
 #endif
 
 #endif
@@ -510,6 +524,16 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+@class NSURLSession;
+@class NSURLAuthenticationChallenge;
+@class NSURLCredential;
+
+SWIFT_CLASS("_TtC23canscloud_ios_framework11CansConnect")
+@interface CansConnect : NSObject <NSURLSessionDelegate>
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)URLSession:(NSURLSession * _Nonnull)session didReceiveChallenge:(NSURLAuthenticationChallenge * _Nonnull)challenge completionHandler:(void (^ _Nonnull)(NSURLSessionAuthChallengeDisposition, NSURLCredential * _Nullable))completionHandler;
+@end
+
 #endif
 #if defined(__cplusplus)
 #endif

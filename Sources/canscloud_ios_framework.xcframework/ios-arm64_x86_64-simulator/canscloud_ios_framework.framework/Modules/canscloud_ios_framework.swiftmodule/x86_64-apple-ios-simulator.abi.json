@@ -15,13 +15,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
-        "declKind": "Import",
-        "moduleName": "canscloud_ios_framework"
-      },
-      {
         "kind": "TypeDecl",
         "name": "CansConnect",
         "printedName": "CansConnect",
@@ -35,14 +28,19 @@
                 "kind": "TypeNominal",
                 "name": "CansConnect",
                 "printedName": "canscloud_ios_framework.CansConnect",
-                "usr": "s:23canscloud_ios_framework11CansConnectC"
+                "usr": "c:@M@canscloud_ios_framework@objc(cs)CansConnect"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:23canscloud_ios_framework11CansConnectCACycfc",
+            "usr": "c:@M@canscloud_ios_framework@objc(cs)CansConnect(im)init",
             "mangledName": "$s23canscloud_ios_framework11CansConnectCACycfc",
             "moduleName": "canscloud_ios_framework",
+            "overriding": true,
+            "objc_name": "init",
             "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -933,33 +931,148 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "urlSession",
+            "printedName": "urlSession(_:didReceive:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLAuthenticationChallenge",
+                "printedName": "Foundation.URLAuthenticationChallenge",
+                "usr": "c:objc(cs)NSURLAuthenticationChallenge"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthChallengeDisposition",
+                        "printedName": "Foundation.URLSession.AuthChallengeDisposition",
+                        "usr": "c:@E@NSURLSessionAuthChallengeDisposition"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URLCredential?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLCredential",
+                            "printedName": "Foundation.URLCredential",
+                            "usr": "c:objc(cs)NSURLCredential"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@canscloud_ios_framework@objc(cs)CansConnect(im)URLSession:didReceiveChallenge:completionHandler:",
+            "mangledName": "$s23canscloud_ios_framework11CansConnectC10urlSession_10didReceive17completionHandlerySo12NSURLSessionC_So28NSURLAuthenticationChallengeCySo0l4AuthN11DispositionV_So15NSURLCredentialCSgtctF",
+            "moduleName": "canscloud_ios_framework",
+            "objc_name": "URLSession:didReceiveChallenge:completionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
-        "usr": "s:23canscloud_ios_framework11CansConnectC",
+        "usr": "c:@M@canscloud_ios_framework@objc(cs)CansConnect",
         "mangledName": "$s23canscloud_ios_framework11CansConnectC",
         "moduleName": "canscloud_ios_framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
         ]
       }
     ],
     "json_format_version": 8
   },
-  "ConstValues": [
-    {
-      "filePath": "\/Users\/siraphop\/Documents\/CansProjects\/cans-communication\/canscloud-ios-framework\/canscloud-ios-framework\/CansConnect.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1253,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/siraphop\/Documents\/CansProjects\/cans-communication\/canscloud-ios-framework\/canscloud-ios-framework\/CansConnect.swift",
-      "kind": "StringLiteral",
-      "offset": 1286,
-      "length": 14,
-      "value": "\"test.cans.cc\""
-    }
-  ]
+  "ConstValues": []
 }
