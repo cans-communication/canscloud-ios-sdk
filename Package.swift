@@ -22,8 +22,8 @@ let package = Package(
     targets: [
       .binaryTarget(
         name: "canscloud_ios_framework",
-        url: "https://github.com/cans-communication/canscloud-ios-framework/releases/download/0.0.5/canscloud_ios_framework.xcframework.zip",
-        checksum: "85a242b805d1aff2256449ef8dc215e436b23b4c883e7405c1c48ebcf8c8026b")
+        url: "https://github.com/cans-communication/canscloud-ios-framework/releases/download/0.0.6/canscloud_ios_framework.xcframework.zip",
+        checksum: "f43058a7cd2da4989c4b254d2b94c9417e6c63696b4634e22407aad1cbf7e1ca")
     ]
 
 )
